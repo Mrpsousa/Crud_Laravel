@@ -24,5 +24,5 @@
 <input type="text" name="sale_price" id="sale_price" value="<?= $property->sale_price; ?>">
 <br/>
 
-<button type="submit"> Cadastrar Imóvel </button>
+<button type="submit"> Atualizar Imóvel </button>
 </form>
