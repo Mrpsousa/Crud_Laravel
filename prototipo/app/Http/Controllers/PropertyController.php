@@ -22,7 +22,7 @@ class PropertyController extends Controller
         $property = Property::where('name', $name)->get();
         if(!empty($property))
         {
-            return view('property/show')->with('property', $property);;
+            return view('property/show')->with('property', $property);
             //var_dump($id);
             //echo"Done!"; //teste
         }else{
