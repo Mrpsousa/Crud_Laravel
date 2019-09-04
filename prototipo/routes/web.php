@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    echo"iae";
-    //return view('welcome');
-});
+Route::get('/', 'PropertyController@show_index');
 
 Route::get('/imoveis', 'PropertyController@index');
 

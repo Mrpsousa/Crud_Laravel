@@ -16,6 +16,12 @@ class PropertyController extends Controller
         return view('property.index')->with('properties', $properties);
     }
 //----------------------------------------------------------------------
+public function show_index()
+{
+
+    return view('property.show_index');
+}
+//-----------------------------------------------------------------
     public function show($name)
     {
         //$property = DB::select("SELECT * FROM properties WHERE name = ?", [$name]);
