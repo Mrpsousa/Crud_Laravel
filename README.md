@@ -1,2 +1,2 @@
-# Crud_Laravel
-Crud simples com laravel
+# Framework Laravel
+Aplicações com laravel
