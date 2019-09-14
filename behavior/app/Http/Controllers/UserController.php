@@ -25,4 +25,20 @@ class UserController extends Controller
     {
         return "<h1> Disparou ação 'Put' </h1>";
     }
+
+
+    public function testPatch()
+    {
+        return "<h1> Disparou ação 'Patch' </h1>";
+    }
+
+    public function testMatch()
+    {
+        return "<h1> Disparou ação 'Match[Put/Patch]' </h1>";
+    }
+
+    public function destroy()
+    {
+        return "<h1> Disparou ação 'Delete' </h1>";
+    }
 }

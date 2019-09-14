@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container my-5">
-    <form action="{{ url('/users/1') }}" method="POST" autocomplete="off">
+    <form action="{{ url('/users') }}" method="POST" autocomplete="off">
         @method('PUT')
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="form-group">

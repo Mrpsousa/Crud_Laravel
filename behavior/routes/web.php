@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 /*
 |--------------------------------------------------------------------------
@@ -40,4 +40,8 @@ Route::get('/getData', 'UserController@getData');
 Route::post('/postData', 'UserController@postData');
 
 Route::put('/users/{id}', 'UserController@testPut');
+Route::patch('/users/1', 'UserController@testPatch');
 
+Route::match(['put', 'patch'], '/users/2', 'UserController@testMatch');
+
+Route::delete('/users/1', 'UserController@destroy');
