@@ -35,6 +35,7 @@ Route::delete($uri, $callback);
 Route::options($uri, $callback);
 */
 
+/* next step, do  better
 Route::get('/users/{id}', 'UserController@index');
 Route::get('/getData', 'UserController@getData');
 Route::post('/postData', 'UserController@postData');
@@ -45,3 +46,30 @@ Route::patch('/users/1', 'UserController@testPatch');
 Route::match(['put', 'patch'], '/users/2', 'UserController@testMatch');
 
 Route::delete('/users/1', 'UserController@destroy');
+*/
+
+/* //rota "geral" (possui todas as rodas)
+Route::resource('posts', 'PostController');
+*/
+
+/* usando Closure (não indicado)
+Route::get('/users', function(){
+    echo "Funciona...";
+});
+*/
+
+/* callback = caso  seja "invocado"  uma  rota que não exista (usando Closure)
+Route::fallback(function(){
+    echo "Essa rota não existe, desculpe.";
+});
+*/
+
+/* rota de redirecionamento:: redirect = 3 parametros = rota de origem, destino, código de retorno (301 - código de redirecionamento)
+Route::redirect('/user/add', url('/form'), 301);
+*/
+
+/* dar nome as rotas
+Route::get('/posts', 'PostController@index')->name('posts.index');
+Route::get('/posts/index', 'PostController@indexRedirect')->name('posts.indexRedirect');
+*/
+
