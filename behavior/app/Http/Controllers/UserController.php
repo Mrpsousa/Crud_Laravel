@@ -41,4 +41,9 @@ class UserController extends Controller
     {
         return "<h1> Disparou ação 'Delete' </h1>";
     }
+
+    public function userComments($id, $comment = null)
+    {
+        var_dump($id, $comment);
+    }
 }

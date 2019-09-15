@@ -13,12 +13,12 @@
 
 
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('form');
 });
 
 Route::view('/form', 'form');
-
+*/
 /*
 Route::verbo_http('URI', 'Controller@método');
 step by step = definir rota(routs/web) -> criar controlador -cria-se 1x -(app/http/controllers) -> criação do método(in controllers) -> camada view(resoucers/views)
@@ -71,5 +71,23 @@ Route::redirect('/user/add', url('/form'), 301);
 /* dar nome as rotas
 Route::get('/posts', 'PostController@index')->name('posts.index');
 Route::get('/posts/index', 'PostController@indexRedirect')->name('posts.indexRedirect');
+
 */
+/* tratamento de parametroS (2 ou +), com Closure
+Route::get('users/{id}/comments/{comment}', function($id, $comment) {
+    var_dump($id, $comment);
+});
+*/
+
+
+/* tratamento de parametroS e parametro opcional(2 ou +), com tratamento de entrada de (com expressão regular) com Closure
+Route::get('users/{id}/comments/{comment?}', function($id, $comment = null) {
+    var_dump($id, $comment);
+})->where(['id'=>'[0-9]+', 'comment'=>'[a-z A-Z 0-9]+']);
+*/
+
+/* tratamento de parametroS e parametro opcional(2 ou +), com tratamento de entrada de (com expressão regular)*/
+Route::get('users/{id}/comments/{comment?}',
+'UserController@userComments')->where(['id'=>'[0-9]+', 'comment'=>'[a-z A-Z 0-9]+']);
+
 
