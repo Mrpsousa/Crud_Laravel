@@ -296,7 +296,7 @@
                 </div>
         <div class="col-sm-3">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                    <img class="card-img-top" src="{{ asset('img/dibre.jpg') }}">
                     <div class="card-body">
                                 <h4 class="card-title"> Optativas</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Matérias Optativas</h6>
