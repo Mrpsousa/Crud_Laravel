@@ -144,7 +144,7 @@
     </div>
     <div class="col-sm-3">
         <div class="card">
-            <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+            <img class="card-img-top" src="{{ asset('img/item1.jpg') }}">
             <div class="card-body">
                 <h4 class="card-title"> 1º Semestre</h4>
                 <h6 class="card-subtitle mb-2 text-muted">Matérias do 1º regular</h6>
@@ -162,7 +162,7 @@
 
     <div class="col-sm-3">
             <div class="card">
-                <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                <img class="card-img-top" src="{{ asset('img/item2.jpg') }}">
                 <div class="card-body">
                     <h4 class="card-title"> 2º Semestre</h4>
                     <h6 class="card-subtitle mb-2 text-muted">Matérias do 2º regular</h6>
@@ -179,7 +179,7 @@
     </div>
     <div class="col-sm-3">
             <div class="card">
-                <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                <img class="card-img-top" src="{{ asset('img/item3.jpg') }}">
                 <div class="card-body">
                     <h4 class="card-title"> 3º Semestre</h4>
                     <h6 class="card-subtitle mb-2 text-muted">Matérias do 3º regular</h6>
@@ -202,7 +202,7 @@
         </div>
         <div class="col-sm-3">
             <div class="card">
-                <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                <img class="card-img-top" src="{{ asset('img/item4.jpg') }}">
                 <div class="card-body">
                     <h4 class="card-title"> 4º Semestre</h4>
                     <h6 class="card-subtitle mb-2 text-muted">Matérias do 4º regular</h6>
@@ -220,7 +220,7 @@
 
     <div class="col-sm-3">
         <div class="card">
-                <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                <img class="card-img-top" src="{{ asset('img/item5.jpg') }}">
                 <div class="card-body">
                         <h4 class="card-title"> 5º Semestre</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Matérias do 5º regular</h6>
@@ -237,7 +237,7 @@
         </div>
     <div class="col-sm-3">
             <div class="card">
-                    <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                    <img class="card-img-top" src="{{ asset('img/item6.jpg') }}">
                     <div class="card-body">
                         <h4 class="card-title"> 6º Semestre</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Matérias do 6º regular</h6>
@@ -261,7 +261,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/item7.jpg') }}">
                         <div class="card-body">
                                 <h4 class="card-title"> 7º Semestre</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Matérias do 7º regular</h6>
@@ -279,7 +279,7 @@
 
                 <div class="col-sm-3">
                         <div class="card">
-                                <img class="card-img-top" src="{{ asset('img/sem01.jpg') }}">
+                                <img class="card-img-top" src="{{ asset('img/item8.jpg') }}">
                                 <div class="card-body">
                                     <h4 class="card-title"> 8º Semestre</h4>
                                     <h6 class="card-subtitle mb-2 text-muted">Matérias do 8º regular</h6>
