@@ -17,5 +17,14 @@ Route::get('/', function () {
 });
 */
 //posts/create.../show
-Route::resource('posts', 'PostController');
+Route::resource('/', 'PostController');
+Route::get('/sem1', 'PostController@sem1');
+Route::get('/sem2', 'PostController@sem2');
+Route::get('/sem3', 'PostController@sem3');
+Route::get('/sem4', 'PostController@sem4');
+Route::get('/sem5', 'PostController@sem5');
+Route::get('/sem6', 'PostController@sem6');
+Route::get('/sem7', 'PostController@sem7');
+Route::get('/sem8', 'PostController@sem8');
+Route::get('/opt', 'PostController@opt');
 
