@@ -152,9 +152,12 @@
                         <h6 class="card-subtitle mb-2 text-muted">Matérias do 1º regular</h6>
                         </div>
                             <uL class="list-group list-group-flush">
-                                <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                <li class="list-group-item"> cal1 ingles </li>
-                                <li class="list-group-item"> metodo adb </li>
+                                <li class="list-group-item"> Linguagem de Programação I </li>
+                                <li class="list-group-item"> Metodologia da Pesquisa Científica </li>
+                                <li class="list-group-item"> Física para Ciência da Computação </li>
+                                <li class="list-group-item"> Introdução à Ciência da Computação</li>
+                                <li class="list-group-item"> Lógica para Computação </li>
+                                <li class="list-group-item"> Cálculo Aplicado I </li>
                             </uL>
                         <div class="card-body">
                         <p><a href="{{ url('/sem1') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -170,9 +173,12 @@
                             <h6 class="card-subtitle mb-2 text-muted">Matérias do 2º regular</h6>
                             </div>
                                 <uL class="list-group list-group-flush">
-                                    <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                    <li class="list-group-item"> cal1 ingles </li>
-                                    <li class="list-group-item"> metodo adb </li>
+                                    <li class="list-group-item"> Linguagem de Programação II </li>
+                                    <li class="list-group-item"> Algebra e Geometria Analítica </li>
+                                    <li class="list-group-item"> Eletrônica </li>
+                                    <li class="list-group-item"> Lógica Digital I </li>
+                                    <li class="list-group-item"> Fund. Matemáticos para Computação </li>
+                                    <li class="list-group-item"> Cálculo Aplicado II </li>
                                 </uL>
                             <div class="card-body">
                             <p><a href="{{ url('/sem2') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -187,9 +193,12 @@
                             <h6 class="card-subtitle mb-2 text-muted">Matérias do 3º regular</h6>
                         </div>
                             <uL class="list-group list-group-flush">
-                                    <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                    <li class="list-group-item"> cal1 ingles </li>
-                                    <li class="list-group-item"> metodo adb </li>
+                                    <li class="list-group-item"> Linguagem de Programação III </li>
+                                    <li class="list-group-item"> Estrutura de Dados </li>
+                                    <li class="list-group-item"> Algebra Abstrata </li>
+                                    <li class="list-group-item"> Lógica Digital II</li>
+                                    <li class="list-group-item"> Fundamentos de Economia</li>
+                                    <li class="list-group-item"> Cálculo Aplicado III </li>
                                 </uL>
                             <div class="card-body">
                             <p><a href="{{ url('/sem3') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -210,9 +219,13 @@
                             <h6 class="card-subtitle mb-2 text-muted">Matérias do 4º regular</h6>
                         </div>
                                 <uL class="list-group list-group-flush">
-                                    <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                    <li class="list-group-item"> cal1 ingles </li>
-                                    <li class="list-group-item"> metodo adb </li>
+                                    <li class="list-group-item"> Computação Gráfica </li>
+                                    <li class="list-group-item"> Análise dos Sistemas de Informação </li>
+                                    <li class="list-group-item">Organização e Recuperação da Informação </li>
+                                    <li class="list-group-item"> Projeto e Análise de Algoritmos </li>
+                                    <li class="list-group-item"> Organização e Arquiterura de Computadores </li>
+                                    <li class="list-group-item">Direito e Legislação </li>
+                                    <li class="list-group-item"> Probabilidade e Estatística </li>
                                 </uL>
                             <div class="card-body">
                             <p><a href="{{ url('/sem4') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -228,9 +241,12 @@
                                 <h6 class="card-subtitle mb-2 text-muted">Matérias do 5º regular</h6>
                                 </div>
                                     <uL class="list-group list-group-flush">
-                                        <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                        <li class="list-group-item"> cal1 ingles </li>
-                                        <li class="list-group-item"> metodo adb </li>
+                                        <li class="list-group-item">Banco de Dados I </li>
+                                        <li class="list-group-item"> Conceitos de Linguagens de Programação</li>
+                                        <li class="list-group-item"> Teoria da Computação </li>
+                                        <li class="list-group-item">Sistemas Operacionais </li>
+                                        <li class="list-group-item"> Inteligência Artificial</li>
+                                        <li class="list-group-item"> Análise Numérica </li>
                                     </uL>
                                 <div class="card-body">
                                 <p><a href="{{ url('/sem5') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -245,9 +261,11 @@
                                 <h6 class="card-subtitle mb-2 text-muted">Matérias do 6º regular</h6>
                                 </div>
                                     <uL class="list-group list-group-flush">
-                                        <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                        <li class="list-group-item"> cal1 ingles </li>
-                                        <li class="list-group-item"> metodo adb </li>
+                                        <li class="list-group-item"> Interface Homem-Máquina </li>
+                                        <li class="list-group-item"> Banco de Dados II </li>
+                                        <li class="list-group-item"> Compiladores </li>
+                                        <li class="list-group-item"> Administração para Computação </li>
+                                        <li class="list-group-item"> Redes de Computadores I </li>
                                     </uL>
                                 <div class="card-body">
                                 <p><a href="{{ url('/sem6') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -269,9 +287,11 @@
                                         <h6 class="card-subtitle mb-2 text-muted">Matérias do 7º regular</h6>
                                     </div>
                                         <uL class="list-group list-group-flush">
-                                            <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                            <li class="list-group-item"> cal1 ingles </li>
-                                            <li class="list-group-item"> metodo adb </li>
+                                            <li class="list-group-item"> Engenharia de Software </li>
+                                            <li class="list-group-item"> Tecnologia e Sociedade </li>
+                                            <li class="list-group-item"> Empreendedor em Informática </li>
+                                            <li class="list-group-item"> Sistemas Distribuídos </li>
+                                            <li class="list-group-item"> Redes de Computadores II </li>
                                         </uL>
                                     <div class="card-body">
                                     <p><a href="{{ url('/sem7') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
@@ -287,9 +307,7 @@
                                             <h6 class="card-subtitle mb-2 text-muted">Matérias do 8º regular</h6>
                                             </div>
                                             <uL class="list-group list-group-flush">
-                                                <li class="list-group-item"> Lp1  cal1 ld1 </li>
-                                                <li class="list-group-item"> cal1 ingles </li>
-                                                <li class="list-group-item"> metodo adb </li>
+                                                <li class="list-group-item"> TCC </li>
                                             </uL>
                                             <div class="card-body">
                                             <p><a href="{{ url('/sem8') }}" class="btn btn-info btn-xs" role="button">Acesso</a>
