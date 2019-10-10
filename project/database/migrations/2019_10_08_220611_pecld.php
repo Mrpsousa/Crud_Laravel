@@ -15,14 +15,13 @@ class Pecld extends Migration
     {
         Schema::create('PECLD', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('dedutibilidade');
-            $table->string('creditoGarantia');
-            $table->string('cobrancaAdm');
-            $table->string('processoJudicial');
-            $table->string('hipotese');
+            $table->char('dedutibilidade', 100);
+            $table->char('cobrancaAdm', 2);
+            $table->char('processoJudicial', 2);
+            $table->char('creditoGarantia', 2);
+            $table->char('hipotese', 100);
             $table->double('valorConta');
             $table->dateTime('vencimento');
-            $table->timestamps();
         });
     }
 
