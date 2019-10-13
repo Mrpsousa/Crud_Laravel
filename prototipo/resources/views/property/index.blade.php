@@ -17,13 +17,11 @@ if(!empty($properties))
             foreach($properties as $property)
             {
 
-                $linkReadMode =  url('/imoveis/'.$property->name);
-                $linkEditItem = url('/imoveis/editar/' . $property->name);
-                $linkRemoveItem = url('/imoveis/remover/'.$property->name);
 
                 echo"<tr>
-                        <td>{$property->title}</td>
+                        <td>{!! $usuario !!}->nome</td>
                         <td>{$property->rental_price}</td>
+                        echo'<td>{$usuario->nome}</td>';
                         <td>{$property->sale_price}</td>
                         <td><a href='{$linkReadMode}'>Ver Mais</a> | <a href='{$linkEditItem}'>Editar</a> | <a href='{$linkRemoveItem}'>Remover</a></td>
                     <tr>";
