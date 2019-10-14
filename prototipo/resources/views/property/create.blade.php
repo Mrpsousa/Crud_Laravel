@@ -28,7 +28,7 @@
             <input type="text" name="sale_price" id="sale_price" class="form-control">
         </div>
 
-        <button type="submit" class="btn btn-primary"> Cadastrar Imóvel </button>
+        <button type="submit" class="btn btn-primary"> Login  Imóvel </button>
     </form>
 
 </div>

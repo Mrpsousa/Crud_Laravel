@@ -20,3 +20,5 @@ Route::get('/', 'AppController@index');
 Route::get('/log', 'AppController@log');
 Route::get('/dedut', 'AppController@dedut');
 Route::get('/list', 'AppController@list');
+Route::get('/cont', 'AppController@cont');
+Route::post('/testlog', 'AppController@testlog');

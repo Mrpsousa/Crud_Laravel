@@ -17,7 +17,7 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
@@ -48,18 +48,18 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="http://www.creative-tim.com" class="navbar-brand">
+                <a href="<?= url('/');?>" class="navbar-brand">
                     Argos Contabilidade
                 </a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li>
-                        <a href="http://www.creative-tim.com/product/gaia-bootstrap-template-pro" target="_blank"> Endereço e Contato</a>
+                        <a href="<?= url('/cont');?>" target="_blank"> Endereço e Contato</a>
                     </li>
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Algo?
+                            <i class="fa fa-share-alt"></i> Social
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
                             <li>
@@ -74,7 +74,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.creative-tim.com/product/gaia-bootstrap-template" class="btn btn-danger btn-fill">Dudutibilidade </a>
+                        <a href="<?= url('/log');?>" class="btn btn-danger btn-fill">Dudutibilidade </a>
                     </li>
                 </ul>
             </div>
@@ -245,7 +245,7 @@
                 </div>
 
                 <div class="button-get-started">
-                    <a href="#gaia" class="btn btn-danger btn-fill btn-lg">Entre em Contato</a>
+                    <a href="<?= url('/cont');?>" class="btn btn-danger btn-fill btn-lg">Entre em Contato</a>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a></li>
+                                    <a href="<?= url('/');?>" >Home</a></li>
                                 <li>
                             </ul>
                         </nav>
@@ -273,7 +273,7 @@
                          <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Nosso Contato</a>
+                                    <a href="<?= url('/cont');?>"> Nosso Contato</a>
                                 </li>
                             </ul>
                         </nav>
