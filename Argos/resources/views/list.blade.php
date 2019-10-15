@@ -12,7 +12,7 @@ if(!empty($sql))
                     <th>ID</th>
                     <th>Dedutibilidade</th>
                     <th>Hipotese</th>
-                    <th>Outros</th>
+                    <th>Outro</th>
              </thead>";
             foreach($sql as $property)
             {
