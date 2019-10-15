@@ -17,14 +17,21 @@ class AppController extends Controller
         return view('contato');
     }
 
+
     public function log()
     {
         return view('login');
     }
 
+    public function list(){
+          $sql = DB::select("SELECT * FROM PECLD");
+          return view('list')->with('sql', $sql);
+          //return view('list');
+     }
+
+
     public function testlog(Request $request)
-    {
-         
+    {  
         //$sql = DB::select("SELECT * FROM senhas");
         $userName  =  $request->uname;
         $userPass  =  $request->pwd;
@@ -225,16 +232,11 @@ class AppController extends Controller
                   }
              }    
         } //end   
-   return view('dedut'); //return redirect()->action('AppController@list');
+        return redirect()->action('AppController@list'); //return redirect()->action('AppController@list'); quando o tiver listando corretamente
+     }
 }
 
-    public function list()
-    {
-        $sql = DB::select("SELECT * FROM teste");
-        return view('list')->with('sql', $sql);
-    }
-}
-
+  
 
 
 
